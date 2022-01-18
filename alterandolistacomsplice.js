@@ -3,7 +3,7 @@ const listaDeChamada = ['Joao', 'Ana', 'Caio', 'Lara', 'Marjorie', 'Leo']
 console.log(listaDeChamada)
 
 /*remover ana e caio
-splice precisa que seja informado o primeiro e o ultimo elemento*/
+splice precisa que seja informado o primeiro indice e quantos indices serao removidos*/
 listaDeChamada.splice(1,2,'Rodrigo')
 console.log(listaDeChamada)
 /* A ana esta no indice 1 e o caio no indice 2, e adicionamos o rodrigo, porém esse parametro não é obrigatorio.*/
